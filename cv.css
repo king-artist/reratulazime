@@ -1,0 +1,86 @@
+
+
+
+header .about{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+    justify-content: center;
+    padding: 4rem 0rem;
+}
+header .about .aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header .about .img img{
+    height: 22vh;
+    width: 100%;
+    border-radius: 50%;
+}
+
+header .nav{
+    padding: 1.4rem 0rem;
+    background-color: rgb(221, 230, 237);
+}
+
+header .nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main .aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 0rem;
+}
+main .aboutme .card{
+    width: 60%;
+}
+
+main .aboutme .card img{
+    height: 43vh;
+    
+    width: 43vh;
+}
+main .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .skills .overflow-x-auto{
+    padding-bottom: 6rem;
+}
+
+main .skills .circle{
+    display: flex;
+}
+main .experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .experience .overflow-x-auto{
+    padding-bottom: 6rem;
+}
+main .education{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+main .achieve{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .contact{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20rem;
+    padding: 6rem 0rem;
+}
+
